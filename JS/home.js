@@ -2,9 +2,9 @@
 
 let cuurencyUrl = `https://currencyapi.net/api/v2/rates?key=5c1333cbf95057fa60a11d41edc831cdca72&output=json`;
 
-let PoliticsNewsUrl = `https://gnews.io/api/v4/top-headlines?category=Politics&lang=en&country=us&max=10&apikey=f9c0ea89a627b3b8ab50d6cb528c94a2`;
+let PoliticsNewsUrl = `https://cors-anywhere.herokuapp.com/https://gnews.io/api/v4/top-headlines?category=Politics&lang=en&country=us&max=10&apikey=f9c0ea89a627b3b8ab50d6cb528c94a2`;
 
-let EconomyNewsUrl = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=e1191e5e926e485ab165d61b093354ea`;
+let EconomyNewsUrl = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=e1191e5e926e485ab165d61b093354ea`;
 
 let SportsNewsUrl = `https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=e1191e5e926e485ab165d61b093354ea`;
 
