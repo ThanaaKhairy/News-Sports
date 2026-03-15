@@ -1,0 +1,89 @@
+:root {
+    --primary-dark: #1a1a1a;
+    --accent-yellow: #ffc107;
+    --bg-light: #f8f9fa;
+}
+
+body {
+    
+    background-color: var(--bg-light);
+}
+
+.navbar .nav-link {
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Match Cards */
+.match-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.match-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.league-header {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.league-header img {
+    width: 20px;
+}
+
+.team-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 15px;
+    color: #333;
+}
+
+.vs-divider {
+    font-weight: bold;
+    color: #999;
+    margin-top: 20px;
+}
+
+.match-time {
+    background: #f1f1f1;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+}
+
+/* Form Controls */
+.filter-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}

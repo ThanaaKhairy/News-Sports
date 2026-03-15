@@ -1,0 +1,53 @@
+ .navbar .nav-link {
+     transition: 0.3s;
+ }
+
+ .navbar .nav-link:hover {
+     color: #ffc107 !important;
+
+ }
+
+ /* News Cards */
+
+ .card {
+     border: none;
+     border-radius: 15px;
+     overflow: hidden;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+     transition: 0.3s;
+ }
+
+ .card:hover {
+     transform: scale(1.03);
+ }
+
+ /* Aside */
+
+ aside {
+     position: sticky;
+     top: 20px;
+ }
+
+ /* Weather Widget */
+
+ .widget {
+     background: #f5f5f5;
+     border-radius: 15px;
+     padding: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+
+ /* Currency */
+
+ .converter input,
+ .converter select {
+     margin-bottom: 10px;
+ }
+
+ /* Category Title */
+
+ .category-title {
+     margin: 40px 0 20px;
+     font-weight: bold;
+ }
