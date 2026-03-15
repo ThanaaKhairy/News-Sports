@@ -4,11 +4,11 @@ let cuurencyUrl = `https://currencyapi.net/api/v2/rates?key=5c1333cbf95057fa60a1
 
 let PoliticsNewsUrl = `https://cors-anywhere.herokuapp.com/https://gnews.io/api/v4/top-headlines?category=Politics&lang=en&country=us&max=10&apikey=f9c0ea89a627b3b8ab50d6cb528c94a2`;
 
-let EconomyNewsUrl = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=e1191e5e926e485ab165d61b093354ea`;
+let EconomyNewsUrl = `https://cors-anywhere.herokuapp.com/https://gnews.io/api/v4/top-headlines?category=Business&lang=en&country=us&max=10&apikey=f9c0ea89a627b3b8ab50d6cb528c94a2`;
 
-let SportsNewsUrl = `https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=e1191e5e926e485ab165d61b093354ea`;
+let SportsNewsUrl = `https://cors-anywhere.herokuapp.com/https://gnews.io/api/v4/top-headlines?category=Sports&lang=en&country=us&max=10&apikey=f9c0ea89a627b3b8ab50d6cb528c94a2`;
 
-let technologyNewsUrl = `https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=e1191e5e926e485ab165d61b093354ea`;
+let technologyNewsUrl = `https://cors-anywhere.herokuapp.com/https://gnews.io/api/v4/top-headlines?category=Technology&lang=en&country=us&max=10&apikey=f9c0ea89a627b3b8ab50d6cb528c94a2`;
 
 async function getData(url) {
     let response = await fetch(url);
